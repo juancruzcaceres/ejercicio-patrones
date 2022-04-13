@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Logica
 {
-    class Persona
+    public class Persona
     {
         public string Nombre { get; set; }
         public string Apellido { get; set; }
@@ -14,6 +14,7 @@ namespace Logica
         public DateTime FechaNacimiento { get; set; }
         public string Ciudad { get; set; }
         public decimal IngresosNetosAnuales { get; set; }
+        public Cobertura Cobertura { get; set; }
 
         public bool AccedeACobertura(Cobertura cobertura)
         {

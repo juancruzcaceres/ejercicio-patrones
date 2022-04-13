@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Logica
 {
-    class Cobertura
+    public class Cobertura
     {
         public TipoCobertura Tipo { get; set; }
         public string Descripcion { get; set; }

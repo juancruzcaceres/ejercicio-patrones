@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Logica
 {
-    class EmailManager
+    public class EmailManager
     {
         private string from { get; set; }
         private string to { get; set; }

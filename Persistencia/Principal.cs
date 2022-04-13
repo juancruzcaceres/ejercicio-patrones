@@ -6,8 +6,14 @@ using System.Threading.Tasks;
 
 namespace Persistencia
 {
-    class Principal
+    public sealed class Principal
     {
+        private readonly static Principal _instance = new Principal();
+
+        public static Principal Instance
+        {
+            get { return _instance; }
+        }
 
     }
 }
